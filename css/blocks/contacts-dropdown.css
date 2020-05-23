@@ -1,0 +1,58 @@
+.contacts-dropdown {
+  position: relative;
+}
+
+.contacts-dropdown:hover .dropdown__list {
+  left: 0;
+  opacity: 1;
+}
+.dropdown__list {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 81px;
+  border-radius: 3px;
+  box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  top: 100%;
+  margin-top: 14px;
+  opacity: 0;
+  transition: 0.2s opacity linear;
+  left: -99999px;
+}
+
+.dropdown__list:before {
+  content: "";
+  display: block;
+  height: 14px;
+  left: 0;
+  right: 0;
+  top: -13px;
+  position: absolute;
+}
+
+.dropdown__list:after {
+  position: absolute;
+  content: "";
+  border: 10px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #fff;
+  border-top-width: 0;
+  top: -9px;
+  right: 0;
+}
+
+.contacts-dropdown__time {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f89513;
+  margin-bottom: 10px;
+}
+.contacts-dropdown__lunch {
+  font-size: 14px;
+  font-weight: 300;
+}

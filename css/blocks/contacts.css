@@ -1,0 +1,26 @@
+.contacts {
+  display: inline-block;
+  text-align: right;
+  font-style: normal;
+}
+
+.contacts__phone {
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts__hours {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(248, 149, 19, 0.7);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.2s color linear;
+}
+
+.contacts__hours:hover {
+  color: #b9b9b9;
+}

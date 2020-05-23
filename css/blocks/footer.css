@@ -1,0 +1,31 @@
+.footer {
+  background-color: #131415;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.footer__author {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.footer__author a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  transition: color 0.2s linear;
+}
+
+.footer__author a:hover {
+  color: #f89513;
+}
+
+.footer__author span {
+  font-weight: 700;
+}

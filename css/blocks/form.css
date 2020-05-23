@@ -1,0 +1,130 @@
+.form-section {
+  padding: 61px 31.7%;
+}
+
+.form {
+  background-color: #f5f5f5;
+  padding: 52px 10%;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form__row:last-child {
+  margin-bottom: 0;
+}
+
+.form__block {
+  flex: 1;
+  margin-left: 23px;
+}
+
+.form__block:first-child {
+  margin-left: 0;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px 9px;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.form__input::placeholder {
+  color: rgba(34, 31, 31, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form__input:focus {
+  border-color: #f89513;
+}
+
+.form__title {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.form__input--textarea {
+  height: 70px;
+  resize: vertical;
+}
+.form__input--textarea::placeholder {
+  color: #221f1f;
+}
+
+.form__question-options {
+  display: flex;
+}
+
+.option {
+  display: flex;
+  margin-right: 21px;
+}
+
+.option:last-child {
+  margin-right: 0;
+}
+
+.input:checked ~ .option__radio {
+  border: solid 1px #f89513;
+  background-image: linear-gradient(to top, #ededed, #ffffff);
+}
+.input:checked ~ .option__radio:before {
+  display: flex;
+}
+.option__radio:before {
+  position: absolute;
+  display: none;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f89513;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  display: none;
+}
+
+.option__radio {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 1px #c9c9c9;
+  background-image: linear-gradient(to top, #ededed, #ffffff);
+}
+
+.option__title {
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.form__btn {
+  margin-left: auto;
+}
+
+.form__btn input {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #1c1f1d;
+  padding: 18px 21px;
+  transition: 0.2s color linear;
+}
+
+.form__btn input:hover {
+  background-color: #f89513;
+}

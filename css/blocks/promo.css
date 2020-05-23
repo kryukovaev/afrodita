@@ -1,0 +1,21 @@
+.promo {
+  margin-top: 68px;
+  background-color: #131415;
+  background-image: url("../../img/promo-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.promo__text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #ffffff;
+  padding: 43px 200px;
+}
+
+.promo__text span {
+  font-weight: 700;
+  color: #f89513;
+}

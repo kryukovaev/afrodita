@@ -1,0 +1,31 @@
+.partners__container {
+  padding: 0 111px 33px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 87px 8% 0;
+}
+
+.partners__item {
+  min-width: 160px;
+  text-align: center;
+  padding-bottom: 50px;
+  filter: grayscale(100%);
+  transition: 0.2s filter linear;
+}
+
+.partners__item:hover {
+  filter: grayscale(0);
+}
+
+.partners__item:nth-child(3n-1) {
+  width: 50%;
+}
+
+.partners__link {
+  display: block;
+}

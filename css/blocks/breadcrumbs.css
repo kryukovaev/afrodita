@@ -1,0 +1,46 @@
+.breadcrumbs {
+  padding-top: 46px;
+}
+
+.breadcrumbs__container {
+  padding: 0 111px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__item {
+  position: relative;
+  margin-right: 15px;
+}
+
+.breadcrumbs__item:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -12px;
+  content: "/";
+  color: rgba(34, 31, 31, 0.8);
+}
+
+.breadcrumbs__item:last-child:before {
+  display: none;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(34, 31, 31, 0.8);
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+.breadcrumbs__link:hover {
+  color: rgba(248, 149, 19, 0.8);
+}
+
+.breadcrumbs__link--active {
+  color: rgba(248, 149, 19, 0.8);
+  text-decoration: underline;
+}
